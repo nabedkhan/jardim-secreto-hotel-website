@@ -1,0 +1,80 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.slider-text{
+		margin: 20px;
+	}
+	.slider-text h1{
+		font-size: 28px;
+		margin-bottom: 0px;
+	}
+	.card, .item-checkin{
+		margin-bottom: 30px;
+	}
+	.about-img{
+    	margin-bottom: 20px;
+	}
+	.about-text{
+		text-align: center;
+	}
+	.about-img::before {
+    	right: -1%;
+	}
+	.footer p, .social-icons{
+		text-align: center !important;
+	}
+	.social-icons{
+		margin-top: 10px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.slider-text{
+		margin: 30px;
+	}
+	.card, .item-checkin{
+		margin-bottom: 30px;
+	}
+	.about-img{
+    	margin-bottom: 20px;
+	}
+	.about-text{
+		text-align: center;
+	}
+	.about-img::before {
+    	right: -1%;
+	}
+	.footer p, .social-icons{
+		text-align: center !important;
+	}
+	.social-icons{
+		margin-top: 10px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.card-body{
+		padding: 8px;
+	}
+	.about-img{
+		text-align: center;
+    	margin-bottom: 30px;
+	}
+	.about-text{
+		text-align: center;
+	}
+	.about-img::after {
+    	left: 12%;
+	}
+	.about-img::before {
+    	right: 12%;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.about-img::before {
+    	right: -1%;
+	}
+}
