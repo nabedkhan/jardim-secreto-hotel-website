@@ -57,8 +57,15 @@
 	.card{
 		margin-bottom: 30px;
 	}
-	.spa-image, .spa-text{
-		text-align: center;
+	.spa-text {
+		height: 215px;
+	}
+	.spa-text img {
+		width: 80px;
+	}
+	.spa-text h5{
+		font-size: 20px;
+    	margin-bottom: 0px;
 	}
 	.about-img{
 		text-align: center;
@@ -77,6 +84,9 @@
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.spa-text {
+		height: 290px;
+	}
 	.about-img::before {
     	right: -1%;
 	}
